@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="yemek ekle" android:id="@+id/yemekekle"></item>
+    <item android:title="Oyun" android:id="@+id/oyun"></item>
+
+</menu>

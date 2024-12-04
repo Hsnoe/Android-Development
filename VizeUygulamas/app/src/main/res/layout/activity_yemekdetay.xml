@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yemekdetay">
+
+    <TextView
+        android:id="@+id/yemekadi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginBottom="112dp"
+        android:gravity="center"
+        android:text="Yemeğin Adı"
+        android:textColor="#D02727"
+        android:textSize="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/malzemeler"
+        app:layout_constraintStart_toStartOf="@+id/malzemeler"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/malzemeler"
+        android:layout_width="277dp"
+        android:layout_height="194dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="34dp"
+        android:text="Kullanılacak malzemeler"
+        android:textColor="#1711D0"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/tarif"
+        app:layout_constraintEnd_toEndOf="@+id/tarif"
+        app:layout_constraintStart_toStartOf="@+id/tarif"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tarif"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="98dp"
+        android:text="tarifi"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/malzemeler" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Ana Sayfa" android:id="@+id/anaSayfa"></item>
+    <item android:title="Kırmızı" android:id="@+id/Kırmızı"></item>
+    <item android:title="Mavi" android:id="@+id/Mavi"></item>
+    <item android:title="Sarı" android:id="@+id/Sarı"></item>
+    <item android:title="Kullanıcı Girişi" android:id="@+id/giris"></item>
+
+</menu>
